@@ -70,6 +70,7 @@ namespace WpfAppGraphStat
           Stroke = Brushes.Black,
           StrokeThickness = 1
         };
+
         MyCanvas.Children.Add(graduation);
 
         TextBlock labelY = new TextBlock
@@ -118,7 +119,7 @@ namespace WpfAppGraphStat
     private void DessinerCourbe()
     {
       // Exemple de données
-      List<double> valeurs = new List<double> { 10, 50, 80, 40, 90, 60, 30 };
+      List<double> valeurs = new List<double> { 10, 50, 80, 40, 90, 60, 30, 10, 50, 80, 40, 90, 60, 30 };
 
       // Dimensions du Canvas
       double canvasWidth = MyCanvas.ActualWidth;
